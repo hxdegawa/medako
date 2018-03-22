@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  background-color: #ff6a65;
+  overflow: hidden;
+}
+
+.medahouse, .nearback, .farback{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.nearback{
+  background-image: url(./back1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.farback{
+  background-image: url(./back2.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.banner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-image: url("./text.svg");
+  background-size: 80% 120%;
+  background-repeat: no-repeat;
+}
+
+.medako{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(./Masteryi.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto 92%;
+}
+
+.halfsize{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+.left{
+  left: 0;
+}
+
+.right{
+  right: 0;
+}
+
+.medaL{
+  transform: rotateY(0deg);
+}
+
+.medaR{
+  transform: rotateY(180deg);
+}
